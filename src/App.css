@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+.main1,.pop1,.first1,.next1{
+    background-color: black;
+    width: 99vw;
+    height: 97.7vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.next3{
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main2,.pop2{
+    background-color: rgb(158, 156, 221);
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.next2{
+    background-color: rgb(158, 156, 221);
+    width: 70vw;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main2 > h1{
+    font: 600 1.2vmax "gilroy";
+    margin-top: 2vmax;
+}
+.next2>h1{
+    font: 600 1.8vmax "gilroy";
+    margin-top: 4vmax;
+}
+.next2>p{
+    font: 600 1vmax "gilroy";
+    margin-top: 0vmax;
+}
+.main2 > p{
+    font: 600 .7vmax "gilroy";
+    margin-top: 0vmax;
+}
+.main2 > button ,.pop2>button{
+    font: 600 .9vmax "gilroy";
+    margin-top: 1vmax;
+   text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 25px;
+   text-decoration: none;
+   background-color: black;
+   color: white;
+}
+.next3>button{
+    font: 500 .9vmax "gilroy";
+    margin-top: 1vmax;
+   text-decoration: none;
+   border-radius: 25px;
+   padding: 5px 10px;
+   border: none;
+
+}
+.next3>.btn1{
+    background-color: green;
+}
+.next3>.btn2{
+    background-color: red;
+}
+.pop2 > input {
+    padding: 8px 10px;
+    outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.first2{
+    background-color: rgb(158, 156, 221);
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font: 600 1.5vmax "gilroy";
+
+}
+.link1,.link2{
+    text-decoration: none; 
+    color: white;
+
+}
+.linkpopup,.firstlink1,.poplink1{
+    text-decoration: none; 
+   top: 12vmax;
+   left: 35vmax;
+    font: 600 1vmax "gilroy";
+    position: fixed;
+}
+.linkpopup2,.firstlink{
+    text-decoration: none; 
+    margin-left: -2vmax;
+    margin-top: -10vmax;
+    font: 600 1.5vmax "gilroy";
+}
+.link{
+    text-decoration: none; 
+    font: 600 1vmax "gilroy";
+    position: fixed;
+    top: 10vmax;
+    left: 20vmax;
+}
+.nextlink,.firstlink2{
+    text-decoration: none; 
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cross{
+    margin-left: 5vmax;
+    text-decoration: none;
+    position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details2{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.next2 >.btn1{
+    background-color: green;
+}
+.btn3{
+    font: 500 .9vmax "gilroy";
+    margin-top: 1vmax;
+   text-decoration: none;
+   border-radius: 25px;
+   padding: 5px 10px;
+   border: none;
+   background-color: black;
+   color: white;
+   position: fixed;
+   top: 32vmax;
+   left: 53vmax;
+
+}
+.popp1{
+    position: absolute;
+    background-color: black;
+    width: 99vw;
+    height: 97.7vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popp2{
+    background-color: rgb(158, 156, 221);
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
 }
